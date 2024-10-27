@@ -1,4 +1,4 @@
-const hedefDizi = ["g", "t", "b"]; // Hedef tuş sırası
+const hedefDizi = ["z", "e", "n", "c", "i"]; // Hedef tuş sırası
 let basilanlar = []; // Basılan tuşları takip etmek için boş dizi
 
 document.addEventListener("keydown", function(event) {
@@ -11,7 +11,7 @@ document.addEventListener("keydown", function(event) {
 
     // Basılan tuş dizisi hedef diziyi tutuyorsa işlem yap
     if (JSON.stringify(basilanlar) === JSON.stringify(hedefDizi)) {
-        window.location.href = "https://raw.githubusercontent.com/TheAhmett/cemal/refs/heads/main/image.png"
+        window.location.href = "https://raw.githubusercontent.com/TheAhmett/cemal/refs/heads/main/cem.jpg"
         basilanlar = []; // İşlemden sonra basılanları sıfırla
     }
 });
