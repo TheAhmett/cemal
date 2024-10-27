@@ -11,6 +11,7 @@ document.addEventListener("keydown", function(event) {
 
     // Basılan tuş dizisi hedef diziyi tutuyorsa işlem yap
     if (JSON.stringify(basilanlar) === JSON.stringify(hedefDizi)) {
+        alert("nigger")
         window.location.href = "https://raw.githubusercontent.com/TheAhmett/cemal/refs/heads/main/cem.jpg"
         basilanlar = []; // İşlemden sonra basılanları sıfırla
     }
