@@ -1,4 +1,4 @@
-const hedefDizi = ["z", "e", "n", "c", "i"]; // Hedef tuş sırası
+const hedefDizi = ["z","n","c"]; // Hedef tuş sırası
 let basilanlar = []; // Basılan tuşları takip etmek için boş dizi
 
 document.addEventListener("keydown", function(event) {
