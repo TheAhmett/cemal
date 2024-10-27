@@ -11,7 +11,7 @@ document.addEventListener("keydown", function(event) {
 
     // Basılan tuş dizisi hedef diziyi tutuyorsa işlem yap
     if (JSON.stringify(basilanlar) === JSON.stringify(hedefDizi)) {
-        window.location.href = "
+        window.location.href = "https://raw.githubusercontent.com/TheAhmett/cemal/refs/heads/main/image.png"
         basilanlar = []; // İşlemden sonra basılanları sıfırla
     }
 });
