@@ -11,7 +11,7 @@ document.addEventListener("keydown", function(event) {
 
     // Basılan tuş dizisi hedef diziyi tutuyorsa işlem yap
     if (JSON.stringify(basilanlar) === JSON.stringify(hedefDizi)) {
-        alert("Doğru sırada tuşlara bastın!");
+        window.location.href = "
         basilanlar = []; // İşlemden sonra basılanları sıfırla
     }
 });
