@@ -11,7 +11,6 @@ document.addEventListener("keydown", function(event) {
 
     // Basılan tuş dizisi hedef diziyi tutuyorsa işlem yap
     if (JSON.stringify(basilanlar) === JSON.stringify(hedefDizi)) {
-        alert("NIGGA SPOTTED")
         window.location.href = "https://raw.githubusercontent.com/TheAhmett/cemal/refs/heads/main/cem.jpg", "_blank"
         basilanlar = []; // İşlemden sonra basılanları sıfırla
     }
