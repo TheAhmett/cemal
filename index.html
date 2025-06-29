@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cemal Gay</title>
-  <link rel="icon" type="image/jpg" href="cem.jpg">
+  <link rel="icon" type="image/jpg" href="cem.jpg" />
   <style>
     * {
       margin: 0;
@@ -15,40 +15,44 @@
     html, body {
       width: 100%;
       height: 100%;
+      overflow: hidden; /* Scroll'u engelle */
     }
 
     body {
       font-family: Arial, sans-serif;
-      background-image: url('hamza.jpg');
+      background: url('hamza.jpg') no-repeat center center fixed;
       background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-
       display: flex;
       align-items: center;
       justify-content: center;
     }
 
     .container {
+      width: 100vw;
+      height: 100vh;
       text-align: center;
-    }
-
-    .container p {
-      margin: 0;
-      color: #4b0082;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 2vh 2vw;
     }
 
     .title {
-      font-size: 20vw; /* Ekran genişliğine göre boyutlanır */
+      font-size: 12vw;  /* Büyük ama taşma yapmaz */
+      color: #4b0082;
+      margin-bottom: 2vh;
     }
 
     .subtitle {
-      font-size: 5vw;
+      font-size: 3.5vw;
+      color: #4b0082;
+      margin-bottom: 1vh;
     }
 
     .desc {
-      font-size: 3vw;
+      font-size: 2.5vw;
+      color: #4b0082;
+      margin-bottom: 0.5vh;
     }
   </style>
 </head>
