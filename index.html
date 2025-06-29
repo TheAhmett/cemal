@@ -1,45 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/jpg" href="cem.jpg">
-    <title>Cemal Gay</title>
-        <style>
-            html, body {
-                margin: 0;
-                padding: 0;
-                height: 100%;
-                width: 100%;
-            }
-        
-            body {
-                font-family: Arial, sans-serif;
-                text-align: center;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                background-image: url('hamza.jpg');
-                background-position: center center;
-                background-repeat: no-repeat;
-                background-attachment: fixed;
-                background-size: cover;
-                overflow: hidden;
-            }
-        
-            p {
-                margin-bottom: 10px;
-                margin-top: 0px;
-            }
-        </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cemal Gay</title>
+  <link rel="icon" type="image/jpg" href="cem.jpg">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('hamza.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    .container p {
+      margin: 0;
+      color: #4b0082;
+    }
+
+    .title {
+      font-size: 20vw; /* Ekran genişliğine göre boyutlanır */
+    }
+
+    .subtitle {
+      font-size: 5vw;
+    }
+
+    .desc {
+      font-size: 3vw;
+    }
+  </style>
 </head>
 <body>
-    <div>
-        <p style="font-size: 300px; color: #4b0082;">CEMAL GAY</p>
-        <p style="font-size: 60px; color: #4b0082;">poyraz ve hamza kürt</p>
-        <p style="font-size: 40px; color: #4b0082;">eren femboy</p>
-        <p style="font-size: 40px; color: #4b0082;">süeda fetöcü(!)</p>
-    </div>
-    <script src="script.js"></script>
+  <div class="container">
+    <p class="title">CEMAL GAY</p>
+    <p class="subtitle">poyraz ve hamza kürt</p>
+    <p class="desc">eren femboy</p>
+    <p class="desc">süeda fetöcü(!)</p>
+  </div>
 </body>
 </html>
